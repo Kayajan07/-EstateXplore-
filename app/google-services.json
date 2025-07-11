@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "180745697437",
+    "project_id": "estatexplore-17091",
+    "storage_bucket": "estatexplore-17091.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180745697437:android:ae57bc36cf9a8c4c627c74",
+        "android_client_info": {
+          "package_name": "com.example.estatexplore5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm3W0FEMEbhFLM3nb0N-VylS6XFaTOtiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

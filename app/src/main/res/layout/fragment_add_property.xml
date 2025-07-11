@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="?android:colorBackground">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="24dp">
+
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="Selected Image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/house_logo"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/buttonSelectImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Select Image"
+            android:backgroundTint="@color/buttonFilterLight"
+            android:textColor="@color/colorOnPrimary"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Title"
+            android:inputType="text"
+            android:importantForAutofill="yes"
+            android:padding="12dp"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/editTextPrice"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Price"
+            android:inputType="number"
+            android:padding="12dp"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/editTextArea"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Area (m²)"
+            android:inputType="number"
+            android:padding="12dp"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/editTextRooms"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Number of Rooms (e.g. 3+1)"
+            android:inputType="text"
+            android:padding="12dp"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/editTextLocation"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Location (City)"
+            android:inputType="text"
+            android:padding="12dp"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/editTextDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:hint="Details"
+            android:inputType="textMultiLine"
+            android:importantForAutofill="yes"
+            android:padding="12dp"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/editTextContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Contact info (phone)"
+            android:inputType="textEmailAddress|phone"
+            android:padding="12dp"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <EditText
+                android:id="@+id/editTextCategories"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:hint="Categories"
+                android:inputType="text"
+                android:importantForAutofill="yes"
+                android:padding="12dp"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@color/colorTextPrimary" />
+
+            <Button
+                android:id="@+id/buttonSelectCategories"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="Select"
+                android:minWidth="80dp"
+                android:backgroundTint="@color/buttonFilterLight"
+                android:textColor="@color/colorOnPrimary"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonAddProperty"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Add Property"
+            android:backgroundTint="@color/buttonFilterLight"
+            android:textColor="@color/colorOnPrimary" />
+
+    </LinearLayout>
+</ScrollView>

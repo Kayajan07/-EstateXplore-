@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkbox_pet_friendly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet-Friendly" />
+
+        <CheckBox
+            android:id="@+id/checkbox_student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Housing" />
+
+        <CheckBox
+            android:id="@+id/checkbox_professional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profession-Based" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sports Zones" />
+
+        <CheckBox
+            android:id="@+id/checkbox_retiree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retiree-Specific" />
+
+        <!-- Yeni Kategoriler -->
+        <CheckBox
+            android:id="@+id/checkbox_family"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Family-Friendly" />
+
+        <CheckBox
+            android:id="@+id/checkbox_investment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Investment Property" />
+
+        <CheckBox
+            android:id="@+id/checkbox_garden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="With Garden" />
+
+        <CheckBox
+            android:id="@+id/checkbox_luxury"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luxury" />
+
+        <CheckBox
+            android:id="@+id/checkbox_single"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Single Living" />
+
+        <CheckBox
+            android:id="@+id/checkbox_vacation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vacation Home" />
+
+        <CheckBox
+            android:id="@+id/checkbox_minimalist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minimalist" />
+
+        <Button
+            android:id="@+id/button_apply_filters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply Filters"
+            android:layout_marginTop="24dp"/>
+    </LinearLayout>
+</ScrollView>
+

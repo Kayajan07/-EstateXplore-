@@ -1,8 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
     <style name="Base.Theme.EstateXplore5" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Material 3 uyumlu renkler -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Backgrounds -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorBackground</item>
+        <item name="colorTextPrimary">@color/colorTextPrimary</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColor">@color/colorTextPrimary</item>
     </style>
 
     <style name="Theme.EstateXplore5" parent="Base.Theme.EstateXplore5" />
@@ -12,7 +23,7 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.EstateXplore5.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.EstateXplore5.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.EstateXplore5.AppBarOverlay" parent="ThemeOverlay.Material3" />
+    <style name="Theme.EstateXplore5.PopupOverlay" parent="ThemeOverlay.Material3" />
 </resources>
+

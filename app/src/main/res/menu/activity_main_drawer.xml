@@ -1,25 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home"
-            android:title="Home" />
-
+            android:title="@string/nav_home" /> <!-- Burada @string/nav_home olduğundan emin olun -->
         <item
             android:id="@+id/nav_properties"
             android:icon="@drawable/ic_property"
-            android:title="Properties" />
-
+            android:title="@string/nav_properties" /> <!-- @string/nav_properties'e bakın -->
         <item
             android:id="@+id/nav_favorites"
             android:icon="@drawable/ic_favorite"
-            android:title="Favorites" />
+            android:title="@string/nav_favorites" /> <!-- @string/nav_favorites kontrol edin -->
+        <item
+            android:id="@+id/nav_my_listings"
+            android:icon="@drawable/ic_my_listings"
+            android:title="My listings" />
+        <item
+            android:id="@+id/nav_admin_panel"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Admin Panel"
+            android:visible="true" />
+        <item
+            android:id="@+id/navigation_add_property"
+            android:icon="@drawable/ic_add"
+            android:title="Add Property" />
 
         <item
             android:id="@+id/nav_settings"
             android:icon="@drawable/ic_settings"
-            android:title="Settings" />
+            android:title="@string/nav_settings" /> <!-- @string/nav_settings'ı kontrol edin -->
+
+
+
     </group>
 </menu>
+
+

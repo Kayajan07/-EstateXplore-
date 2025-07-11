@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Base Colors -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Light Theme -->
+    <color name="colorPrimary">#673AB7</color>           <!-- Deep Purple -->
+    <color name="colorAccent">#9575CD</color>            <!-- Soft Purple -->
+    <color name="colorHighlight">#D1C4E9</color>         <!-- Lavender Highlight -->
+    <color name="colorPrimaryVariant">#512DA8</color>    <!-- Slightly Darker Primary -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorBackground">#F1EDF9</color>        <!-- Light Purple Background -->
+    <color name="colorTextPrimary">#212121</color>       <!-- Rich Gray -->
+    <color name="buttonFilterLight">#9575CD</color>      <!-- Accent for buttons -->
+    <color name="favorites_title">#673AB7</color>
+    <color name="filter_button_tint">#673AB7</color>
+
+    <!-- 💜 Dark Theme (Mor Ağırlıklı) -->
+    <color name="colorPrimaryDark">#4A148C</color>             <!-- Royal Purple -->
+    <color name="colorPrimaryVariantDark">#6A1B9A</color>      <!-- Elegant Purple -->
+    <color name="colorOnPrimaryDark">#FFFFFF</color>
+    <color name="colorBackgroundDark">#121212</color>          <!-- Night Purple Background -->
+    <color name="colorSurfaceDark">#2D1B47</color>             <!-- Card BG - Violet -->
+    <color name="colorTextPrimaryDark">#EDE7F6</color>         <!-- Light Lavender Text -->
+    <color name="buttonFilterDark">#7B1FA2</color>             <!-- Deep Purple Button -->
+    <color name="onButtonFilterDark">#FFFFFF</color>
+
+
+    <!-- App Background -->
+    <color name="app_background">#F1EDF9</color>
 </resources>

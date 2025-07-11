@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="?android:colorBackground">
 
+
+    <!-- Başlık -->
     <TextView
+        android:id="@+id/textFavoritesTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Favorites Page"
-        android:textSize="24sp"
-        android:textStyle="bold"/>
+        android:text="Favorites"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#512DA8"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:shadowColor="#66000000"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="2" />
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </LinearLayout>
+

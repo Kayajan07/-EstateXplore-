@@ -1,21 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">EstateXplore5</string>
-    <string name="title_activity_menu">MenuActivity</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
-
+    <string name="app_name">EstateXplore</string>
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_properties">Properties</string>
     <string name="menu_favorites">Favorites</string>
     <string name="menu_settings">Settings</string>
+    <string name="contact_info">📞 Contact Information:</string>
+    <string name="call">Call</string>
+
+    <!-- Yeni eklediğiniz kaynaklar -->
+    <string name="nav_header_title">EstateXplore</string> <!-- Nav header title -->
+    <string name="nav_header_desc">Welcome to EstateXplore!</string> <!-- Nav header description -->
+    <string name="nav_header_subtitle">Find properties, manage favorites, and more.</string> <!-- Nav header subtitle -->
+
+    <!-- Diğer string kaynaklarınız -->
+    <!-- Duplikaları kaldırdık ve yalnızca bir kez tanımladık -->
+    <string name="nav_home">Home</string>
+    <string name="nav_properties">Properties</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_settings">Settings</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <string name="welcome_text">Welcome to EstateXplore!</string>
+    <string name="property_name">Property Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="security_question">Security Question: What is your favorite color?</string>
+    <string name="security_answer_hint">Answer (e.g., Blue)</string>
+    <string name="register_button">Register</string>
 
 
 </resources>
+
+
 
 
